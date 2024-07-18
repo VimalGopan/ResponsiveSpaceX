@@ -1,0 +1,395 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background: none;
+    
+}
+@font-face {
+    font-family: 'SpaceXfontsBold';
+    src: url('Fonts/DDB.ttf' ) format('truetype'),
+        url('Fonts/DDB.woff') format('woff'),
+        url('Fonts/DDB.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SpaceXfonts';
+    src: 
+        url('Fonts/DD.ttf' ) format('truetype'),
+        url('Fonts/DD.ttf' ) format('woff'),
+        url('Fonts/DD.ttf' ) format('woff2');
+}
+@font-face {
+    font-family: 'SpaceXfontsEXP';
+    src: 
+        url('Fonts/DDEXP.ttf' ) format('truetype'),
+        url('Fonts/DDEXP.ttf' ) format('woff'),
+        url('Fonts/DDEXP.ttf' ) format('woff2');
+}
+
+body {
+    font-family: 'SpaceXfontsBold', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    background-color: black;
+    color: black;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: transparent;
+    position: sticky;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-nav1 ul{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    font-size: 0.844rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0.813rem;
+    position: relative;
+    list-style: none;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+
+.list-bar {
+    text-align: end;
+}
+
+
+.nav-link {
+    display: flex;
+    font-family: SpaceXfontsBold;
+    font-size: 0.8750rem;
+    align-items: 5rem;
+}
+
+
+
+.list-bar ul li{
+
+    border-bottom: 0.013rem solid rgb(138, 138, 138);
+}
+
+
+.navbar-nav {
+    margin-right: 0.5rem;
+}
+
+
+.navbar-nav a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    font-size: 0.8750rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0.8125rem;
+    position: relative;
+
+}
+
+
+.navbar-nav1 a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    font-size: 0.8750rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0.8125rem;
+    position: relative;
+    margin-right: 0.5rem;
+    
+}
+
+.navbar-nav1 a:hover{
+    color: white;
+}
+
+.navbar-nav1 a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.0625rem;
+    width: 100%;
+    height: 0.03125rem;
+    background: white;
+    transform: scaleX(0);
+    transition: transform 0.6s cubic-bezier(0.19,1,0.22,1);
+    transform-origin: right center;
+
+}
+
+.navbar-nav1 a:hover::after{
+    transform: scaleY(1);
+    transform-origin: left center;
+    transition-duration: 0.4s;
+}
+
+.small-screen-logo {
+    display: flex;
+    justify-content: left;
+}
+
+#logo1 {
+    position: absolute;
+    top: 3;
+    z-index: 999;
+    display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+
+section{
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigationbar {
+    position: sticky;
+    z-index: 999;
+}
+
+.first {
+    background-image: url('/SpaceX/Pictures/1.avif')
+}
+
+.second {
+    background-image: url('/SpaceX/Pictures/2.avif')
+}
+
+.third {
+    background-image: url('/SpaceX/Pictures/3.avif')
+}
+
+.four {
+    background-image: url('/SpaceX/Pictures/4.avif')
+}
+
+.five {
+    background-image: url('/SpaceX/Pictures/5.avif')
+}
+
+.heading {
+    font-family: SpaceXfontsBold;
+    font-size: 3.125rem;
+    animation: textBounce 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+    color: white;
+}
+
+.subheading {
+    font-size: 1.25rem;
+    font-family: 'SpaceXfonts', sans-serif;
+    font-weight: 300;
+    animation: textBounce 0.5s ease-in-out;
+    animation-fill-mode: both;
+    color: white;
+}
+
+
+
+.inner {
+    position: absolute;
+    bottom: 7.188rem;
+    left: 6.25rem;
+    max-width: 35rem;
+}
+.inner a {
+    animation: textBounce 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
+}
+
+.inner1 {
+    position: absolute;
+    bottom: 7.188rem;
+    left: 0.75rem;
+    max-width: 36rem;
+}
+.inner1 a {
+    animation: textBounce 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
+}
+
+.heading-mini {
+    font-family: SpaceXfontsBold;
+    font-size: 2.188rem;
+    animation: textBounce 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+    color: white;
+}
+
+.subheading-mini {
+    font-size: 0.813rem;
+    font-family: 'SpaceXfonts', sans-serif;
+    font-weight: 300;
+    animation: textBounce 0.5s ease-in-out;
+    animation-fill-mode: both;
+    color: white;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    text-decoration: none; 
+    font-family: SpaceXfontsBold;
+    min-width: 10.313rem;
+    height: 3.438rem;
+    padding: 0.938rem;
+    margin-top: 1.25rem;
+    border: 0.125rem solid rgb(255, 255, 255);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.button1 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    text-decoration: none; 
+    font-family: SpaceXfontsBold;
+    font-size: medium;
+    min-width: 9.375rem;
+    height: 3.125rem;
+    padding: 0.7rem;
+    margin-top: 0.7rem;
+    border: 0.125rem solid rgb(255, 255, 255);
+    overflow: hidden;
+    z-index: 3;
+}
+
+
+.hover{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: transform .4s;
+}
+
+
+.button:hover .hover{
+    transform: scaleY(1);
+    transform-origin: bottom center;
+}
+
+.button1:hover .hover{
+    transform: scaleY(1);
+    transform-origin: bottom center;
+}
+
+.effect{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    transition: color .2s;
+    position: relative;
+}
+
+.button:hover .effect{
+    color: black;
+}
+
+.button1:hover .effect{
+    color: black;
+}
+
+
+.arrow {
+    position: absolute;
+    bottom: 3.125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: arrowBounce 3s infinite;
+}
+
+@keyframes arrowBounce{
+    0%, 100%
+    {
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+    20%, 50%, 60%, 70%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes textBounce{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(140px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+footer {
+    position: relative;
+    padding: 2.188rem 0;
+    background-color: black;
+}
+
+
+.footer-1{
+    background-color: black;
+}
+
+.footer-1 a{
+    color: white;
+    font-family: SpaceXfonts;
+    text-decoration: none;
+}
+
+.colmn-2 a{
+    font-family: SpaceXfontsBold;
+}
+
+
+@media screen and (max-width:980px) {
+    .colmn-1{
+        display: flex;
+        justify-content: center;
+    }
+    .colmn-2{
+        display: flex;
+        justify-content: center;
+    }
+}
