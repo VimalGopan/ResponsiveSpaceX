@@ -172,23 +172,23 @@ section{
 }
 
 .first {
-    background-image: url('/ResponsiveSpaceX/SpaceX/Pictures/1.avif')
+    background-image: url('./ResponsiveSpaceX/SpaceX/Pictures/1.avif')
 }
 
 .second {
-    background-image: url('/ResponsiveSpaceX/SpaceX/Pictures/2.avif')
+    background-image: url('./ResponsiveSpaceX/SpaceX/Pictures/2.avif')
 }
 
 .third {
-    background-image: url('/ResponsiveSpaceX/SpaceX/Pictures/3.avif')
+    background-image: url('./ResponsiveSpaceX/SpaceX/Pictures/3.avif')
 }
 
 .four {
-    background-image: url('/ResponsiveSpaceX/SpaceX/Pictures/4.avif')
+    background-image: url('./ResponsiveSpaceX/SpaceX/Pictures/4.avif')
 }
 
 .five {
-    background-image: url('/ResponsiveSpaceX/SpaceX/Pictures/5.avif')
+    background-image: url('./ResponsiveSpaceX/SpaceX/Pictures/5.avif')
 }
 
 .heading {
