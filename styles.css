@@ -172,7 +172,7 @@ section{
 }
 
 .first {
-    background-image: url('./SpaceX/Pictures/1.avif')
+    background-image: url("./SpaceX/Pictures/1.avif")
 }
 
 .second {
